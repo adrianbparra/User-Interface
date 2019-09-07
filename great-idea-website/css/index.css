@@ -103,12 +103,13 @@ nav a:hover {
 	width: 49%;
 	height: 100%;
 	vertical-align: middle;
+	text-align: center;
 }
 .title {
 	display: inline-block;
 	width: 49%;
 	vertical-align: middle;
-	text-align: center
+	text-align: center;
 }
 .title h1 {
 	font-size: 4em;
