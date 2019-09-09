@@ -157,12 +157,13 @@ nav a:hover {
 
 .middle-left-img {
 	display: inline-block;
-	height: 383px;
+	height: 22em;
 	width: 50%;
-	background-image: url("img/left-page-img.jpg");
+	background-image: url("../img/left-page-img.jpg");
 	background-color: darkblue;
 	background-position: center;
-	
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .middle-img {
@@ -178,6 +179,7 @@ nav a:hover {
 .content .right {
 	display: inline-block;
 	width: 49%;
+	height: inherit;
 }
 .content .right .design{
 	padding: 15px 10px;
